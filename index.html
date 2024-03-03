@@ -1,33 +1,290 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-	<div>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  		<div class="container-fluid">
-    	<a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="mdiv">
+        <div class="nevigation_bar">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <a class="logo" href="#"> <span class="logo">Portfolio</span></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> 
+                  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home"> <span class="navmenu">Home</span> <span class="sr-only">(current)</span></a>
+      </li>
+    
+        </a>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        
-          
-     
-    </div>
+        <a class="nav-link" href="#about"> <span class="navmenu"> About </span></a>
+      </li>
+        </a>
+<li class="nav-item">
+        <a class="nav-link" href="#Skills"> <span class="navmenu">Skills</span> </a>
+      </li>
+        </a>
+
+<li class="nav-item">
+        <a class="nav-link" href="#Project"> <span class="navmenu"> Projects </span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Contact"> <span class="navmenu"> Contact </span></a>
+      </li>
+        </a>
+
+        </a>
+
+
+      </li>
+      
+    </ul>
+    
   </div>
 </nav>
-	</div>
+        </div> 
+        <!-- nav code ends here -->
+        <div class="section-menu">
+          <div id="home">
+            
+            <div class="homeinfo">
+              <span class="ginfo">Hi,</span><br>
+              <span class="ginfo">MySelf</span>
+              <p class="myname">Aditya Manurkar</p>
+              <span class="ginfo">I am a <span class="fullstack">Full Stack Developer</span></span><br>
+              <button class="rsmbtn"><a href="UpdatedResume.pdf" target="_blank">RESUME</a></button>
+              <div class="img">
+                <img src="img.png">
+              </div>
+              
+            </div>
+          </div>
+          <div id="about">
+            <div class="carrerobj" align="center">
+            <h1 class="heading">ABOUT</h1>
+            <p>Software Engineer Intern dedicated to improving skills through hands-on learning and development work. Proficient in mobile and desktop development environments. Adept at using,Core Java,HTML5,Css3,JavaScript and other programming languages to produce clean code. Well-organized and collaborative team player with strong communication and analytical abilities.</p>
+              
+            </div>
+          </div>
 
+
+          <div id="Skills">
+            <h1 class="heading">SKILLS</h1>
+            <hr>
+            <div align="center">
+              <table class="skillstable" cellspacing="40" width="90%" cellpadding="20px">
+                <tr align="center" valign="top">
+                  <td width="50%" height="250px">
+                    <h3 class="skillsheading">Languages</h3>
+                    <p>
+                      C, C++, Java, JavaScript, HTML5, CSS3, XML, JSON, SQL
+                    </p>
+                  </td>
+                  <td>
+                    <h3 class="skillsheading">API's & Frameworks</h3>
+                    <p>
+                      Collections, Stream, Rest, Soap, Spring, JDBC, Hibernates, Servlets, Spring Boot, Spring MVC, Spring JPA, Spring MicroServices, ReactJS.
+                    </p>
+                  </td>
+                </tr>
+                <tr align="center" valign="top">
+                  <td  height="250px">
+                    <h3 class="skillsheading">Tools</h3>
+                    <p>
+                      Postman, Eclipse, VS Code, Sublime, MySQL, Oracle, JIRA, IntelliJ
+                    </p>
+                  </td>
+                  <td>
+                    <h3 class="skillsheading">Operating System</h3>
+                    <p>
+                      Windows, Linux, iOS, Ubantu, Android, Kali Linux, Parrot
+                    </p>
+                  </td>
+                </tr>
+                
+              </table>
+            </div>
+          </div>
+
+          
+
+
+          <div class="nav_bar" id="Project">
+        <h1 class="section_heading" id="section_projects">Projects</h1>
+        <div>
+
+          <div class="card-deck">
+
+            
+            <div class="card">
+              <img src= "C:\Users\Adity\OneDrive\Desktop\Portfolio\github.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="https://github.com/adityamanurkar/ProjectsQsp">GitHub Link</a></h5>
+                <p class="card-text">Here i added my Git Hub Account Link so you can easyly access my projects......</p>
+              </div> 
+            </div>
+
+            <div class="card">
+              <img src= "C:\Users\Adity\OneDrive\Desktop\Portfolio\728246.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="https://github.com/harshit1220/LAPTOP-PROJECT">ASUS LAPTOP</a></h5>
+                <p class="card-text">I used my HTML,Css Skills to develope the this project... </p>
+              </div> 
+            </div>
+
+
+
+            <div class="card">
+              <img src="C:\Users\Adity\OneDrive\Desktop\Portfolio\TODO.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="https://github.com/adityamanurkar/ProjectsQsp">TO-DO LIST</a></h5>
+                <p class="card-text">A to-do list is just a list of things you have to-do. That means basically anything and everything can be on your to-do list—but just because you’ve written your to-dos down doesn’t mean your to-do list is actually useful. Effectively tracking when your work is due can help you prioritize and get great work done.</p>
+              </div>
+            </div>
+
+
+
+
+            <div class="card">
+              <img src="C:\Users\Adity\OneDrive\Desktop\Portfolio\image_processing20200524-27406-3v9rw5.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="https://github.com/adityamanurkar/ProjectsQsp">Weather App</a></h5>
+                <p class="card-text">Today, multiple weather apps serve both on websites and mobile applications. These weather apps usually use weather APIs that provide comprehensive data and provide users with live, historical, and weather forecast data.</p>
+              </div>
+            </div>
+            
+          </div>
+ 
+        </div>
+      </div>
+
+
+
+          <div class="nav_bar" id="Contact">
+        <h1 class="section_heading" class="section_contact" style="margin-top: 20px;">Contact</h1>
+        <div class="about-data" align="center">
+          <table height="50px" width="95%">
+            <tr>
+              <td valign="center" width="40%" style="padding: 40px;">
+                <ul type="none">
+                  <li><a href="" style="text-decoration: none; color: #025e38; font-weight: bolder;" target="_blank"><img src="https://thumbs.dreamstime.com/b/call-icon-cdr-171463264.jpg" alt="" height="40px" width="40px" style="border-radius: 10px;"><span>  7773950202</span></a></li><br>
+
+                  <li><a href="mailto:adityamanurkar@gmail.com" style="text-decoration: none; color: #025e38; font-weight: bolder;" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3178/3178158.png" height="40px" width="40px" style="border-radius: 10px;"><span> adityamanurkar@gmail.com</span></a></li><br>
+
+                  <li><a href="https://www.linkedin.com/in/aditya-manurkar-97363a229/" style="text-decoration: none; color: #025e38; font-weight: bolder;" target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/023/986/980/non_2x/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png"  height="40px" width="40px" style="border-radius: 10px;"><span>https://www.linkedin.com/in/aditya-manurkar-97363a229/</span></a></li><br>
+
+                  <li><a href="https://github.com/adityamanurkar/about" style="text-decoration: none; color: #025e38; font-weight: bolder;" target="_blank"><img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" height="40px" width="40px" style="border-radius: 10px;"><span>https://github.com/adityamanurkar/about</span></a></li><br>
+                </ul>
+              </td>
+              
+
+
+              <td valign="top" align="center">
+
+                <table >
+                  <form action="">
+                    
+                    <tr>
+                        <td>
+                            <label for="First Name">First Name : </label>
+                        </td>
+                        <td>
+                            <input type="text" name="" id="">
+                        </td>
+                    </tr>
+                    <td></td>
+            
+                      
+                    <tr>
+                        <td>
+                            <label for="Last  Name">Last Name : </label>
+                        </td>
+                        <td>
+                            <input type="text" name="" id="">
+                        </td>
+                    </tr>
+                    <td></td>
+            
+                    <tr>
+                        <td>
+                            <label for="Phone Number">Phone Number : </label>
+                        </td>
+                        <td>
+                            <input type="tel" name="" id=""  maxlength="10">
+                        </td>
+                    </tr>
+                    <td></td>
+            
+                    <tr>
+                        <td>
+                            <label for="Email">Email : </label>
+                        </td>
+                        <td>
+                            <input type="text" name="" id="">
+                        </td>
+                    </tr>
+                    <td></td>
+            
+                    <tr>
+                        <td>
+                            <label for="Suggestion">Suggestion :</label>
+                        </td>
+                        <td>
+                            <address>
+                                <textarea name="" id="" cols="30" rows="5"></textarea>
+                            </address>
+                        </td>
+                    </tr>
+                    <td></td>
+            
+                    <tr>
+                        <td>
+                            <label for="Upload Files">Upload Files :</label>
+                        </td>
+                        <td>
+                            <input type="file" name="" id="">
+                        </td>
+                    </tr>
+                    <td></td>
+            
+                    <td>
+                        <input type="reset" value="Reset" class="reset">
+                        <input type="submit" value="Submit" class="reset" onclick="alert('You Want To Submit This Responce !')">
+                    </td>
+                    </form>
+                </table>
+                  
+
+              </td>
+
+              
+            </tr>
+          </table>
+        </div>
+      </div>
+
+
+
+
+
+      <div id="footer"> 
+        <div>
+          <p id="foot">Copyright © 2012 - 2023 TermsFeed®. All rights reserved.</p>
+        </div>
+      </div>
+
+
+</div>
+
+      </div>
 </body>
 </html>
